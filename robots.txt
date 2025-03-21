@@ -1,0 +1,28 @@
+# robots.txt para Agricultura de Gravatá
+# https://agricultura.gravata.pe.gov.br/
+
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /abacaxi.html
+Allow: /banana.html
+Allow: /cara.html
+Allow: /chuchu.html
+Allow: /flores.html
+Allow: /goiaba.html
+Allow: /organicos.html
+Allow: /style.css
+Allow: /responsive.css
+Allow: /main.js
+Allow: /charts.js
+Allow: /favicon.ico
+
+# Disallow offline page
+Disallow: /offline.html
+
+# Não rastrear arquivos temporários
+Disallow: /*.tmp$
+Disallow: /*.bak$
+
+# Sitemap
+Sitemap: https://agricultura.gravata.pe.gov.br/sitemap.xml 

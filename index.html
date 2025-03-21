@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultura de Gravatá - Secretaria de Agricultura</title>
+    <meta name="description" content="Site oficial da Secretaria de Agricultura de Gravatá, Pernambuco. Conheça as principais culturas agrícolas da região, estatísticas de produção e mais.">
+    <meta name="keywords" content="agricultura, Gravatá, Pernambuco, abacaxi, banana, chuchu, cará são tomé, goiaba, orgânicos, flores">
+    <meta name="author" content="Secretaria de Agricultura de Gravatá">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Prevenção contra clickjacking -->
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+    <!-- Proteção XSS -->
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <!-- Controle de referência -->
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    
+    <!-- Open Graph para compartilhamento em redes sociais -->
+    <meta property="og:title" content="Agricultura de Gravatá - Secretaria de Agricultura">
+    <meta property="og:description" content="Site oficial da Secretaria de Agricultura de Gravatá, Pernambuco. Conheça as principais culturas agrícolas da região, estatísticas de produção e mais.">
+    <meta property="og:url" content="https://agricultura.gravata.pe.gov.br/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://agricultura.gravata.pe.gov.br/img/og-image.jpg">
+    <meta property="og:locale" content="pt_BR">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Agricultura de Gravatá - Secretaria de Agricultura">
+    <meta name="twitter:description" content="Site oficial da Secretaria de Agricultura de Gravatá, Pernambuco. Conheça as principais culturas agrícolas da região.">
+    <meta name="twitter:image" content="https://agricultura.gravata.pe.gov.br/img/og-image.jpg">
+    
+    <!-- Link canônico -->
+    <link rel="canonical" href="https://agricultura.gravata.pe.gov.br/">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Adicionar favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- CSS de cabeçalho crítico para melhorar desempenho -->
+    <style>
+        /* CSS crítico para a renderização inicial */
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" style="text-decoration: none; color: inherit;">
+                    <h1><span class="leaf"></span> Agricultura de Gravatá</h1>
+                </a>
+            </div>
+            <nav>
+                <div class="mobile-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="navigation-links">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#culturas">Culturas</a></li>
+                    <li><a href="#estatisticas">Estatísticas</a></li>
+                    <li><a href="#relatorios">Relatórios</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="nav-overlay"></div>
+
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content animate-on-scroll fade-in">
+                <h1>Secretaria de Agricultura e Desenvolvimento Rural</h1>
+                <p>Gravatá - Pernambuco</p>
+                <p>Conheça as riquezas agrícolas produzidas no município de Gravatá, a "Suíça Pernambucana"</p>
+                <a href="#culturas" class="btn btn-primary">Explorar Culturas</a>
+            </div>
+        </div>
+        <div class="banner-lights"></div>
+        <div class="tech-dots"></div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section id="sobre" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Gravatá</h2>
+            <div class="about-content animate-on-scroll slide-in">
+                <div class="about-text">
+                    <p>Gravatá é um encantador município localizado no Agreste Pernambucano, a aproximadamente 84 quilômetros da capital Recife. Situada em uma altitude de 447 metros acima do nível do mar, a cidade é conhecida como a "Suíça Pernambucana" devido ao seu clima ameno e agradável, com temperaturas mais baixas que a média do estado.</p>
+                    <p>A agricultura é uma das principais atividades econômicas, com destaque para o cultivo de abacaxi, banana da terra, chuchu, cará são tomé, goiaba e produtos orgânicos. A Secretaria de Agricultura e Desenvolvimento Rural, sob a liderança do secretário Josenildo Gomes da Silva, trabalha para fortalecer a agricultura familiar e promover práticas sustentáveis, impulsionando a economia local e melhorando a qualidade de vida dos produtores rurais.</p>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <img src="https://i.ytimg.com/vi/7ovS_B82VNc/maxresdefault.jpg" alt="Imagem de Gravatá" style="width: 100%; height: auto; border-radius: 10px;">
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section id="culturas" class="cultures">
+        <div class="container">
+            <h2 class="section-title">Principais Culturas</h2>
+            <div class="cultures-grid">
+                <div class="culture-card animate-on-scroll fade-in">
+                    <div class="culture-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3056/3056067.png" alt="Ícone Abacaxi" style="width: 40px; height: 40px;">
+                    </div>
+                    <h3>Abacaxi</h3>
+                    <p>O abacaxi se consolidou como a principal cultura do município, cultivado principalmente nas comunidades de Russinhas, Maria Isabel e outras áreas.</p>
+                    <a href="abacaxi.html" class="btn btn-prefeitura">Saiba Mais</a>
+                </div>
+                <div class="culture-card animate-on-scroll fade-in">
+                    <div class="culture-icon">
+                        <img src="https://png.pngtree.com/png-clipart/20230405/original/pngtree-banana-line-icon-png-image_9028564.png" alt="Ícone Banana" style="width: 40px; height: 40px;">
+                    </div>
+                    <h3>Banana da Terra</h3>
+                    <p>A banana da terra é um pilar importante na agricultura local, com cultivo concentrado nas comunidades de Ilha São Miguel, Mundo Novo e outras áreas.</p>
+                    <a href="banana.html" class="btn btn-prefeitura">Saiba Mais</a>
+                </div>
+                <div class="culture-card animate-on-scroll fade-in">
+                    <div class="culture-icon">
+                        <img src="https://png.pngtree.com/png-clipart/20230812/original/pngtree-minimalist-tree-root-system-icon-suitable-for-logos-and-websites-vector-picture-image_10412278.png" alt="Ícone Banana" style="width: 40px; height: 40px;">
+                    </div>
+                    <h3>Cará São Tomé</h3>
+                    <p>O cará, um dos tubérculos mais tradicionais da região, é cultivado principalmente nos distritos de Uruçu-Mirim, Ilha São Miguel e áreas vizinhas.</p>
+                    <a href="cara.html" class="btn btn-prefeitura">Saiba Mais</a>
+                </div>
+                <div class="culture-card animate-on-scroll fade-in">
+                    <div class="culture-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3>Chuchu</h3>
+                    <p>A cultura do chuchu é uma das mais rentáveis da região, gerando muitos empregos e sustento para centenas de famílias locais.</p>
+                    <a href="chuchu.html" class="btn btn-prefeitura">Saiba Mais</a>
+                </div>
+                <div class="culture-card animate-on-scroll fade-in">
+                    <div class="culture-icon">
+                        <i class="fas fa-apple-alt"></i>
+                    </div>
+                    <h3>Goiaba</h3>
+                    <p>A goiaba é um cultivo de grande valor comercial em Gravatá, com produção concentrada principalmente nas comunidades de Mandacaru e Riacho do Meio.</p>
+                    <a href="goiaba.html" class="btn btn-prefeitura">Saiba Mais</a>
+                </div>
+                <div class="culture-card animate-on-scroll fade-in">
+                    <div class="culture-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Orgânicos</h3>
+                    <p>A produção de orgânicos em Gravatá tem crescido a cada ano, com destaque para hortaliças, frutas e ervas medicinais cultivadas sem agrotóxicos.</p>
+                    <a href="organicos.html" class="btn btn-prefeitura">Saiba Mais</a>
+                </div>
+                <div class="culture-card animate-on-scroll fade-in">
+                    <div class="culture-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Flores</h3>
+                    <p>A floricultura em Gravatá é um segmento em expansão, com destaque para a produção de diversas espécies ornamentais adaptadas ao clima local.</p>
+                    <a href="flores.html" class="btn btn-prefeitura">Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section id="estatisticas" class="statistics">
+        <div class="container">
+            <h2 class="section-title">Estatísticas da Produção</h2>
+            <div class="charts-container">
+                <div class="chart-box animate-on-scroll slide-in">
+                    <h3>Produção Mensal de Todas as Culturas Agrícolas (2023-2024)</h3>
+                    <div class="chart-filters">
+                        <button class="chart-filter-btn active" data-year="2023" id="btn-year-2023">2023</button>
+                        <button class="chart-filter-btn" data-year="2024" id="btn-year-2024">2024</button>
+                    </div>
+                    <div class="chart-container">
+                        <div id="productionChart-container">
+                            <canvas id="productionChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="chart-box animate-on-scroll slide-in">
+                    <h3>Distribuição de Área por Cultura Agrícola</h3>
+                    <div class="chart-container">
+                        <div id="distributionChart-container">
+                            <canvas id="distributionChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="hectares-info">
+                        <div class="hectares-info-title">Área Total Cultivada</div>
+                        <div class="hectares-info-value">
+                            <strong>2075</strong>
+                            <span>hectares</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="chart-box animate-on-scroll slide-in">
+                    <h3>Impacto Econômico da Agricultura em Gravatá</h3>
+                    <div class="chart-container">
+                        <div id="economicImpactChart-container">
+                            <canvas id="economicImpactChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="economics-info">
+                        <div class="economics-info-title">Valor Total Gerado</div>
+                        <div class="economics-info-value">
+                            <strong>R$ 230</strong>
+                            <span>milhões</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section id="relatorios" class="reports">
+        <div class="container">
+            <h2 class="section-title">Relatórios da Secretaria</h2>
+            <div class="reports-content">
+                <p class="reports-description">Acesse o relatório oficial elaborado pela Secretaria de Agricultura e Desenvolvimento Rural de Gravatá, contendo informações detalhadas sobre produção agrícola, impacto econômico e iniciativas de desenvolvimento sustentável no município.</p>
+                
+                <div class="reports-container">
+                    <div class="report-card animate-on-scroll fade-in">
+                        <div class="report-icon">
+                            <i class="fas fa-file-pdf"></i>
+                        </div>
+                        <div class="report-info">
+                            <h3>Relatório Técnico da Agricultura de Gravatá 2023-2024</h3>
+                            <p>Documento oficial com dados completos sobre a produção agrícola de Gravatá, elaborado pela Secretaria de Agricultura e Desenvolvimento Rural.</p>
+                            <div class="report-meta">
+                                <span><i class="fas fa-calendar"></i> Publicado: 21/03/2025</span>
+                                <span><i class="fas fa-file-alt"></i> 6 MB</span>
+                            </div>
+                            <div class="report-authors">
+                                <span><i class="fas fa-user-tie"></i> Elaborado por:</span>
+                                <div class="author-names">
+                                    <span>Eng. Agrônomo Cleverland J. C. da Silva</span>
+                                    <span>Téc. Agrícola Orlando B. da Costa</span>
+                                </div>
+                            </div>
+                            <a href="https://files.fm/u/dpwcsbfe5k" class="btn btn-download" target="_blank"><i class="fas fa-download"></i> Baixar Relatório</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section id="contato" class="contact">
+        <div class="contact-banner">
+            <div class="container">
+                <h2>Entre em Contato</h2>
+                <p>Fale conosco para obter mais informações sobre a agricultura em Gravatá</p>
+            </div>
+            <div class="banner-lights"></div>
+        </div>
+        <div class="container">
+            <div class="contact-form-container">
+                <div class="form-introduction">
+                    <h3>Envie sua mensagem</h3>
+                    <p>Preencha o formulário abaixo para enviar sua mensagem diretamente para a Secretaria de Agricultura e Desenvolvimento Rural.</p>
+                </div>
+                <form id="contactForm" class="contact-form">
+                    <input type="hidden" name="to_name" value="Secretaria de Agricultura de Gravatá">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Nome completo</label>
+                        <input type="text" id="name" name="from_name" class="contact-input" placeholder="Digite seu nome completo" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" id="email" name="reply_to" class="contact-input" placeholder="Digite seu e-mail" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Telefone</label>
+                            <input type="tel" id="phone" name="phone" class="contact-input" placeholder="(00) 00000-0000">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Assunto</label>
+                        <input type="text" id="subject" name="subject" class="contact-input" placeholder="Assunto da mensagem" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Mensagem</label>
+                        <textarea id="message" name="message" class="contact-textarea" placeholder="Digite sua mensagem aqui..." rows="5" required></textarea>
+                    </div>
+                    <div class="form-submit">
+                        <button type="submit" class="btn-submit">Enviar Mensagem</button>
+                        <div id="form-status" class="form-status" style="display: none; margin-top: 10px; padding: 10px; border-radius: 4px; text-align: center;"></div>
+                    </div>
+                    <div class="form-note">
+                        <p>Suas informações serão enviadas para: <strong>numintendu@gmail.com</strong></p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="contact-cards">
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="contact-card-info">
+                        <h3>Telefone</h3>
+                        <p><a href="tel:+558135631304">(81) 3563-1304</a></p>
+                    </div>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-card-info">
+                        <h3>Endereço</h3>
+                        <p>Rua José Acioly, nº 101, Gravatá - Pernambuco</p>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-card-info">
+                        <h3>E-mail</h3>
+                        <p><a href="mailto:numintendu@gmail.com">numintendu@gmail.com</a></p>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-card-icon">
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                    <div class="contact-card-info">
+                        <h3>Redes Sociais</h3>
+                        <div class="card-social-icons">
+                            <a href="https://www.facebook.com/PrefeituraGravata/?locale=pt_BR" target="_blank" class="card-social-icon"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/prefeituradegravata/" target="_blank" class="card-social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/prefeituradegravataoficial" target="_blank" class="card-social-icon"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4>Responsáveis Políticos</h4>
+                    <hr class="footer-divider">
+                    <div class="footer-autoridades">
+                        <div class="footer-autoridade">
+                            <strong>JOSELITO GOMES DA SILVA</strong>
+                            <span class="footer-cargo">Prefeito do município de Gravatá/PE</span>
+                        </div>
+                        <div class="footer-autoridade">
+                            <strong>JOSENILDO GOMES DA SILVA</strong>
+                            <span class="footer-cargo">Secretário de Agricultura e Desenvolvimento Rural de Gravatá/PE</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Responsáveis Técnicos</h4>
+                    <hr class="footer-divider">
+                    <div class="footer-tecnicos">
+                        <div class="footer-tecnico">
+                            <strong>CLEVERLAND JOSÉ CAMPOS DA SILVA</strong>
+                            <span class="footer-cargo">Engenheiro Agrônomo</span>
+                            <span class="footer-cargo">CREA-PE41011</span>
+                        </div>
+                        <div class="footer-tecnico">
+                            <strong>ORLANDO BARBOSA DA COSTA</strong>
+                            <span class="footer-cargo">Técnico Agrícola</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Links Rápidos</h4>
+                    <hr class="footer-divider">
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#culturas">Culturas</a></li>
+                        <li><a href="#estatisticas">Estatísticas</a></li>
+                        <li><a href="#relatorios">Relatórios</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Prefeitura Municipal de Gravatá. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        // Configuração do EmailJS
+        document.addEventListener('DOMContentLoaded', function() {
+            // Inicializar EmailJS
+            emailjs.init("AHS_1L7BJvomf_jYR");
+            
+            // Configurar o formulário de contato
+            const contactForm = document.getElementById('contactForm');
+            const formStatus = document.getElementById('form-status');
+            
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(event) {
+                    event.preventDefault();
+                    
+                    // Mostrar status de carregamento
+                    formStatus.style.display = 'block';
+                    formStatus.textContent = 'Enviando mensagem...';
+                    formStatus.style.backgroundColor = '#f8f9fa';
+                    formStatus.style.color = '#333';
+                    
+                    // Desabilitar botão
+                    const submitBtn = contactForm.querySelector('.btn-submit');
+                    const originalText = submitBtn.textContent;
+                    submitBtn.textContent = 'Enviando...';
+                    submitBtn.disabled = true;
+                    
+                    // Usar o formulário diretamente (mais confiável)
+                    emailjs.sendForm('service_7o1gvgi', 'template_n2et9x5', contactForm)
+                        .then(function() {
+                            // Sucesso
+                            formStatus.textContent = 'Mensagem enviada com sucesso! Obrigado pelo contato.';
+                            formStatus.style.backgroundColor = '#d4edda';
+                            formStatus.style.color = '#155724';
+                            contactForm.reset();
+                            
+                            // Esconder a mensagem após 5 segundos
+                            setTimeout(function() {
+                                formStatus.style.display = 'none';
+                            }, 5000);
+                        })
+                        .catch(function(error) {
+                            // Erro
+                            console.error('Erro:', error);
+                            formStatus.textContent = 'Ocorreu um erro ao enviar a mensagem. Por favor, tente novamente.';
+                            formStatus.style.backgroundColor = '#f8d7da';
+                            formStatus.style.color = '#721c24';
+                        })
+                        .finally(function() {
+                            // Restaurar botão
+                            submitBtn.textContent = originalText;
+                            submitBtn.disabled = false;
+                        });
+                });
+            }
+        });
+        
+        // Pré-carregamento do Charts.js para melhorar a performance
+        window.addEventListener('DOMContentLoaded', function() {
+            // Verificar se os elementos dos gráficos existem
+            const productionChart = document.getElementById('productionChart');
+            const distributionChart = document.getElementById('distributionChart');
+            const economicImpactChart = document.getElementById('economicImpactChart');
+            
+            if (productionChart || distributionChart || economicImpactChart) {
+                console.log('Elementos dos gráficos encontrados na página');
+            }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    <script>
+        // Registrar o plugin DataLabels globalmente
+        window.ChartDataLabels = window.ChartDataLabels || {};
+    </script>
+    <script src="charts.js"></script>
+    <script src="main.js"></script>
+    
+    <!-- Schema.org para SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "GovernmentOrganization",
+      "name": "Secretaria de Agricultura de Gravatá",
+      "url": "https://agricultura.gravata.pe.gov.br/",
+      "logo": "https://agricultura.gravata.pe.gov.br/img/logo.png",
+      "description": "Secretaria de Agricultura e Desenvolvimento Rural do município de Gravatá, Pernambuco.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rua José Acioly, nº 101",
+        "addressLocality": "Gravatá",
+        "addressRegion": "Pernambuco",
+        "postalCode": "55640-000",
+        "addressCountry": "BR"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+55-81-3563-1304",
+        "contactType": "customer service"
+      },
+      "sameAs": [
+        "https://www.facebook.com/PrefeituraGravata/?locale=pt_BR",
+        "https://www.instagram.com/prefeituradegravata/",
+        "https://www.youtube.com/prefeituradegravataoficial"
+      ],
+      "member": [
+        {
+          "@type": "Person",
+          "name": "JOSENILDO GOMES DA SILVA",
+          "jobTitle": "Secretário de Agricultura e Desenvolvimento Rural"
+        }
+      ]
+    }
+    </script>
+    
+    <!-- Adicional schema para produtos agrícolas -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Abacaxi",
+          "url": "https://agricultura.gravata.pe.gov.br/abacaxi.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Banana da Terra",
+          "url": "https://agricultura.gravata.pe.gov.br/banana.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Cará São Tomé",
+          "url": "https://agricultura.gravata.pe.gov.br/cara.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Chuchu",
+          "url": "https://agricultura.gravata.pe.gov.br/chuchu.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Goiaba",
+          "url": "https://agricultura.gravata.pe.gov.br/goiaba.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Orgânicos",
+          "url": "https://agricultura.gravata.pe.gov.br/organicos.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Flores",
+          "url": "https://agricultura.gravata.pe.gov.br/flores.html"
+        }
+      ]
+    }
+    </script>
+</body>
+</html> 

@@ -1,0 +1,793 @@
+/* 
+* Agricultura de Gravatá - Estilos Responsivos
+* Cores oficiais da Prefeitura de Gravatá:
+* - Verde: #2CB1A3
+* - Vermelho: #EB3C3B
+* - Marrom: #60442F
+* - Amarelo: #FC9F1C
+*/
+
+/* Telas grandes (desktops, menos de 1200px) */
+@media (max-width: 1200px) {
+    .hero-content h1 {
+        font-size: 2.6rem;
+    }
+    
+    .hero-content p {
+        font-size: 1.1rem;
+    }
+    
+    .hero-content {
+        padding: 25px 30px;
+    }
+    
+    .hero-content h2 {
+        font-size: 2rem;
+    }
+    
+    .hero-content h3 {
+        font-size: 1.3rem;
+    }
+    
+    .about-content {
+        gap: 30px;
+    }
+    
+    .charts-container {
+        flex-direction: column;
+    }
+    
+    .chart-box {
+        max-width: 100%;
+    }
+    
+    #productionChart-container, 
+    #distributionChart-container {
+        height: 350px;
+    }
+    
+    .culture-card h3 {
+        font-size: 1.2rem;
+    }
+    
+    .culture-card p {
+        font-size: 0.9rem;
+    }
+    
+    .section-title {
+        font-size: 1.6rem;
+    }
+    
+    .container {
+        max-width: 95%;
+    }
+}
+
+/* Telas médias (tablets, menos de 992px) */
+@media (max-width: 992px) {
+    .hero {
+        padding: 50px 0 40px;
+        min-height: 300px;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.2rem;
+    }
+    
+    .hero-content p {
+        font-size: 1rem;
+    }
+    
+    .hero-content {
+        padding: 15px 20px;
+        max-width: 550px;
+    }
+    
+    .btn-primary {
+        padding: 9px 22px;
+        font-size: 14px;
+    }
+    
+    .hero-content h2 {
+        font-size: 1.8rem;
+    }
+    
+    .hero-content h3 {
+        font-size: 1.2rem;
+    }
+    
+    .about-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .about-text {
+        order: 2;
+    }
+    
+    .about-image {
+        order: 1;
+        max-width: 100%;
+    }
+    
+    .cultures-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+    
+    .contact-content {
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .contact-info {
+        text-align: center;
+    }
+    
+    .info-item {
+        justify-content: center;
+    }
+    
+    .social-media {
+        justify-content: center;
+    }
+    
+    .footer-content {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+    }
+    
+    .footer-col h4 {
+        font-size: 1.3rem;
+    }
+    
+    #productionChart-container, 
+    #distributionChart-container {
+        height: 300px;
+    }
+    
+    .contact-banner {
+        padding: 30px 0;
+    }
+    
+    .contact-banner h2 {
+        font-size: 1.6rem;
+    }
+    
+    .contact-form-container {
+        padding: 30px;
+        max-width: 700px;
+    }
+    
+    .form-introduction h3 {
+        font-size: 1.4rem;
+    }
+    
+    .form-introduction p {
+        font-size: 1rem;
+    }
+    
+    .btn-submit {
+        padding: 10px 30px;
+        font-size: 1rem;
+    }
+}
+
+/* Telas pequenas (celulares em landscape, menos de 768px) */
+@media (max-width: 768px) {
+    .hero {
+        padding: 45px 0 35px;
+        min-height: 280px;
+    }
+    
+    .hero-content {
+        max-width: 90%;
+        padding: 15px;
+    }
+    
+    .hero-content h1 {
+        font-size: 2rem;
+        margin-bottom: 8px;
+    }
+    
+    .hero-content p {
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+    
+    .btn-primary {
+        padding: 8px 20px;
+        font-size: 13px;
+    }
+    
+    .section-title {
+        font-size: 1.5rem;
+    }
+    
+    header .container {
+        padding: 0 20px;
+    }
+    
+    .logo h1 {
+        font-size: 1.4rem;
+    }
+    
+    .navigation-links {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 80%;
+        max-width: 300px;
+        height: 100vh;
+        background-color: white;
+        flex-direction: column;
+        padding: 80px 30px 30px;
+        z-index: 100;
+        box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+        transition: right 0.3s ease;
+    }
+    
+    .navigation-links.active {
+        right: 0;
+    }
+    
+    .navigation-links li {
+        margin: 0 0 20px 0;
+        text-align: center;
+    }
+    
+    .navigation-links li a {
+        display: block;
+        padding: 10px 0;
+        font-size: 1.1rem;
+    }
+    
+    .cultures-grid {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        max-width: 650px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .culture-card {
+        padding: 25px;
+    }
+    
+    .culture-icon {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .chart-filters {
+        gap: 10px;
+    }
+    
+    .chart-filter-btn {
+        padding: 7px 12px;
+        font-size: 0.8rem;
+    }
+    
+    #productionChart-container, 
+    #distributionChart-container,
+    #economicImpactChart-container {
+        height: 280px;
+    }
+    
+    .reports-description {
+        font-size: 1rem;
+        padding: 0 15px;
+    }
+    
+    .report-card {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .report-icon {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    
+    .report-info h3 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+    
+    .report-meta, .report-authors {
+        padding: 8px 12px;
+    }
+    
+    .report-meta {
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .btn-download {
+        width: 100%;
+        text-align: center;
+        padding: 12px;
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .footer-col {
+        padding: 0 15px;
+        margin-bottom: 10px;
+    }
+    
+    .footer-autoridades, .footer-tecnicos,
+    .footer-autoridade, .footer-tecnico {
+        text-align: center;
+    }
+    
+    .footer-col ul {
+        text-align: center;
+    }
+    
+    .footer-col ul li a:hover {
+        transform: translateX(0);
+    }
+    
+    .banner-lights, .tech-dots {
+        opacity: 0.3;
+    }
+    
+    .contact-banner {
+        padding: 25px 0 45px;
+        overflow: visible;
+    }
+    
+    .banner-lights {
+        bottom: -20px;
+        height: 40px;
+    }
+    
+    .contact-banner h2 {
+        font-size: 1.5rem;
+    }
+    
+    .contact-banner p {
+        font-size: 0.9rem;
+    }
+    
+    .contact-card-info p {
+        font-size: 0.9rem;
+        word-break: break-word;
+        padding: 0 5px;
+    }
+    
+    .contact-cards {
+        gap: 30px;
+        max-width: 500px;
+    }
+    
+    .contact-card {
+        width: 220px;
+        height: 220px;
+    }
+    
+    .about-content {
+        flex-direction: column;
+    }
+    
+    .about-text, .about-image {
+        width: 100%;
+    }
+    
+    .about-image {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    
+    .about-content.slide-in > div:first-child {
+        margin-right: 0;
+    }
+    
+    .hero {
+        min-height: 280px;
+        padding-top: 90px;
+        padding-bottom: 40px;
+    }
+    
+    .contact-form-container {
+        padding: 25px;
+        margin-bottom: 40px;
+    }
+    
+    .form-row {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .contact-input, 
+    .contact-textarea {
+        padding: 10px 12px;
+    }
+    
+    .form-label {
+        font-size: 0.95rem;
+    }
+    
+    .form-introduction h3 {
+        font-size: 1.3rem;
+    }
+}
+
+/* Telas muito pequenas (celulares em portrait, menos de 576px) */
+@media (max-width: 576px) {
+    .hero {
+        padding: 40px 0 30px;
+        min-height: 260px;
+        height: auto;
+    }
+    
+    .hero-content {
+        padding: 15px;
+        max-width: 92%;
+    }
+    
+    .hero-content h1 {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
+    
+    .hero-content p {
+        font-size: 0.9rem;
+        margin-bottom: 15px;
+        line-height: 1.4;
+    }
+    
+    .btn-primary {
+        padding: 8px 20px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    
+    .about, .cultures, .statistics, .contact {
+        padding: 50px 0;
+    }
+    
+    .section-title {
+        font-size: 1.4rem;
+        margin-bottom: 20px;
+    }
+    
+    .cultures-grid {
+        grid-template-columns: 1fr;
+        max-width: 320px;
+    }
+    
+    .chart-box {
+        padding: 20px 15px;
+    }
+    
+    .chart-filter-btn {
+        font-size: 0.75rem;
+        padding: 6px 10px;
+    }
+    
+    .hectares-info {
+        max-width: 240px;
+    }
+    
+    .hectares-info-value strong {
+        font-size: 1.8rem;
+    }
+    
+    .contact-banner {
+        padding: 20px 0 45px;
+        overflow: visible;
+    }
+    
+    .contact-banner h2 {
+        font-size: 1.4rem;
+    }
+    
+    .form-label {
+        font-size: 0.95rem;
+    }
+    
+    .contact-input, .contact-textarea {
+        padding: 12px 15px;
+        font-size: 0.95rem;
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .logo h1 {
+        font-size: 1.2rem;
+    }
+    
+    .footer-col h4 {
+        font-size: 1.2rem;
+    }
+    
+    .footer-autoridade strong, .footer-tecnico strong {
+        font-size: 1rem;
+    }
+    
+    .footer-cargo {
+        font-size: 0.9rem;
+    }
+    
+    .footer-col ul li a {
+        font-size: 1rem;
+    }
+    
+    .contact-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        max-width: 280px;
+    }
+    
+    .contact-card {
+        width: 280px;
+        height: auto;
+        min-height: 200px;
+        padding: 20px;
+    }
+    
+    .contact-card-info p {
+        font-size: 0.85rem;
+        word-break: break-word;
+    }
+    
+    .hero {
+        min-height: 260px;
+        padding-top: 70px;
+        padding-bottom: 30px;
+    }
+    
+    .section-title {
+        font-size: 1.6rem;
+    }
+    
+    .contact-form-container {
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .form-introduction h3 {
+        font-size: 1.2rem;
+    }
+    
+    .form-introduction p {
+        font-size: 0.9rem;
+    }
+    
+    .contact-form {
+        gap: 15px;
+    }
+    
+    .btn-submit {
+        width: 100%;
+        padding: 10px 20px;
+    }
+    
+    .form-note p {
+        font-size: 0.8rem;
+    }
+}
+
+/* Telas extremamente pequenas (celulares pequenos, menos de 400px) */
+@media (max-width: 400px) {
+    .hero-content h1 {
+        font-size: 1.4rem;
+    }
+    
+    .hero-content p {
+        font-size: 0.8rem;
+        margin-bottom: 12px;
+    }
+    
+    .btn {
+        padding: 8px 16px;
+        font-size: 0.85rem;
+    }
+    
+    .section-title {
+        font-size: 1.3rem;
+    }
+    
+    .about-text p {
+        font-size: 0.9rem;
+    }
+    
+    .info-item p {
+        font-size: 0.9rem;
+    }
+    
+    .logo h1 {
+        font-size: 1.1rem;
+    }
+    
+    .leaf {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .culture-card {
+        padding: 20px 15px;
+    }
+    
+    .chart-filters {
+        gap: 5px;
+    }
+    
+    .chart-filter-btn {
+        padding: 5px 8px;
+        font-size: 0.7rem;
+    }
+}
+
+/* Suporte para telas muito largas (acima de 1400px) */
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+    
+    .hero {
+        min-height: 360px;
+    }
+    
+    .hero-content {
+        max-width: 700px;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.8rem;
+    }
+    
+    .hero-content p {
+        font-size: 1.3rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+}
+
+/* Suporte a telas com dark mode */
+@media (prefers-color-scheme: dark) {
+    /* Estilos para temas escuros, se necessário */
+}
+
+/* Específico para o menu móvel */
+.menu-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 998;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.menu-overlay.show {
+    display: block;
+    opacity: 1;
+}
+
+/* Responsividade para os cartões de contato */
+@media (max-width: 990px) {
+    .contact-cards {
+        gap: 25px;
+        max-width: 768px;
+    }
+    
+    .contact-card {
+        width: 220px;
+        height: 220px;
+        padding: 20px 15px;
+    }
+    
+    .contact-card-icon {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 15px;
+    }
+    
+    .contact-card-icon i {
+        font-size: 24px;
+    }
+    
+    .contact-card-info h3 {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    
+    .contact-card-info p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 1.6rem;
+    }
+    
+    .hero-content p {
+        font-size: 0.85rem;
+        margin-bottom: 15px;
+    }
+    
+    .btn-primary {
+        padding: 8px 18px;
+        font-size: 13px;
+    }
+    
+    .hero {
+        min-height: 240px;
+        padding-top: 65px;
+        padding-bottom: 25px;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+    
+    .contact-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        max-width: 280px;
+    }
+    
+    .contact-card {
+        width: 280px;
+        height: 200px;
+        padding: 20px;
+    }
+    
+    .report-card {
+        padding: 15px;
+    }
+
+    .report-info h3 {
+        font-size: 1.1rem;
+    }
+    
+    .report-info p {
+        font-size: 0.9rem;
+    }
+    
+    .report-meta, .report-authors {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .hero-content h1 {
+        font-size: 1.5rem;
+    }
+    
+    .hero-content p {
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+    }
+    
+    .btn-primary {
+        padding: 7px 16px;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    
+    .hero {
+        min-height: 220px;
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+
+    header .logo h1 {
+        font-size: 1.1rem;
+    }
+} 
